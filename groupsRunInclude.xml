@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuite for include groups">
+	<test name="TestCases for include groups">
+		<groups>
+			<run>
+				<include name="Moto"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testNGInterviewPractice.Groups"></class>
+		</classes>
+	</test>
+</suite>

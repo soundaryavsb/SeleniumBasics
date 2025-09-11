@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Suite for parallel website">
+	<test name="Test case for parallel website" verbose="3"
+		parallel="methods" thread-count="2">
+		<classes>
+			<class name="testNGInterviewPractice.Parallel"></class>
+		</classes>
+	</test>
+</suite>

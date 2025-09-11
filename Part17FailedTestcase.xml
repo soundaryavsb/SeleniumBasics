@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite for Handling Failed Test Cases" >
+<listeners>
+<listener class-name="seleniumInterviewProgram.Part17_IAnnotationTransformer_I"></listener>
+</listeners>
+<test name="Testcases" verbose="2" parallel="methods" thread-count="2">
+<classes>
+<class name="seleniumInterviewProgram.Part17_01_HandlingFailedTestCases"></class>
+</classes>
+</test>
+</suite>

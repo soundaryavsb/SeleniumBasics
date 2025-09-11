@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite for exclude groups">
+	<test name="Test case for exclude groups">
+		<groups>
+			<run>
+				<exclude name="Vivo"></exclude>
+			</run>
+		</groups>
+
+		<classes>
+			<class name="testNGInterviewPractice.Groups"></class>
+		</classes>
+	</test>
+</suite>

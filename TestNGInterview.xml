@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Suite Interview">
+<test name="test cases" verbose="2">
+<classes>
+<class name="testNGInterviewPractice.Priority"></class>
+<class name="testNGInterviewPractice.SuiteBeforeAfter"></class>
+</classes>
+</test>
+</suite>

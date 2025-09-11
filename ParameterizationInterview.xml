@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Suite for parameterization">
+	<test name="Test case for parameterization">
+		<classes>
+			<parameter name="MyName" value="Soundarya"></parameter>
+			<parameter name="MyAge" value="27"></parameter>
+			<parameter name="Company" value="Soul India Private Ltd."></parameter>
+			<class name="testNGInterviewPractice.Parameterization"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Suite for parallel">
+	<test name="Test case for parallel" verbose="3" parallel="classes"
+		thread-count="4">
+		<groups>
+			<run>
+				<exclude name="Vivo">
+				</exclude>
+			</run>
+		</groups>
+		<classes>
+			<parameter name="MyName" value="Soundarya"></parameter>
+			<parameter name="MyAge" value="27"></parameter>
+			<parameter name="Company" value="Soul India Private Ltd."></parameter>
+			<class name="testNGInterviewPractice.SuiteBeforeAfter"></class>
+			<class name="testNGInterviewPractice.Parameterization"></class>
+			<class name="testNGInterviewPractice.Groups"></class>
+			<class name="testNGInterviewPractice.Priority"></class>
+		</classes>
+	</test>
+</suite>

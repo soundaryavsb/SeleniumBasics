@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite for Failed IAnnotationTransformer">
+	<listeners>
+		<listener
+			class-name="seleniumInterviewProgram.SeleniumInterviewPracticeIAnnotationTransformer"></listener>
+	</listeners>
+	<test name="Test for Failed" verbose="2" parallel="methods"
+		thread-count="2">
+		<classes>
+			<class
+				name="seleniumInterviewProgram.SeleniumInterviewPractice"></class>
+		</classes>
+	</test>
+</suite>
