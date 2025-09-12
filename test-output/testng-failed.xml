@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="extentReportsInterviewPractice.ExtentReportExample">
+      <class name="pomInterviewPractice_TestCases.Part_03_01_Login">
         <methods>
-          <include name="startbroswer"/>
-          <include name="exitbrowser"/>
-          <include name="GoogleTitle"/>
+          <include name="LoginPage"/>
         </methods>
-      </class> <!-- extentReportsInterviewPractice.ExtentReportExample -->
+      </class> <!-- pomInterviewPractice_TestCases.Part_03_01_Login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

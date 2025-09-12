@@ -18,7 +18,7 @@ public class Part_03_01_Login {
 	@Test
 	public void LoginPage()
 	{
-	System.setProperty("webdriver.chrome.driver", "C:\\chrome Driver\\chromedriver-win32\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chrome Driver\\chromedriver-win32\\chromedriver.exe");
 	WebDriver driver=new ChromeDriver();
 	driver.get("https://www.phptravels.net/login");
 	driver.manage().window().maximize();
