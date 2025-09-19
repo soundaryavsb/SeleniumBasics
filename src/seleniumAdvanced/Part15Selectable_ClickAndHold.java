@@ -1,10 +1,6 @@
 package seleniumAdvanced;
 
-import java.io.File;
-import java.time.Duration;
 import java.util.List;
-import java.util.Set;
-import java.util.concurrent.ConcurrentHashMap.KeySetView;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -12,12 +8,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Part15Selectable_ClickAndHold {
 
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "C:\\chrome Driver\\chromedriver-win32-v133\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chrome Driver\\chromedriver-win32\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://jqueryui.com/selectable/");
 		driver.manage().window().maximize();

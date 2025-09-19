@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Part19Image_brokenImage_naturalWidth_0 {
 
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "C:\\chrome Driver\\chromedriver-win32-v133\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chrome Driver\\chromedriver-win32\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://the-internet.herokuapp.com/broken_images");
 		driver.manage().window().maximize();

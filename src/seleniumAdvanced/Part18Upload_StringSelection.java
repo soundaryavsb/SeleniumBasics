@@ -15,7 +15,7 @@ public class Part18Upload_StringSelection {
 
 	public static void main(String[] args) throws AWTException, InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\chrome Driver\\chromedriver-win32-v133\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chrome Driver\\chromedriver-win32\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://leafground.com/file.xhtml");
 		driver.manage().window().maximize();
